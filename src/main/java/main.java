@@ -1,9 +1,11 @@
+import java.util.Arrays;
 
 public class main {
     public static void main(String[] args) {
-      // c:\Windows\...
-      String message = "c:\\Windows\\...";
-        System.out.println(message);
+      int [] numbers = new int [5];
+      numbers[0] = 1;
+      numbers [1] = 2;
+        System.out.println(Arrays.toString(numbers));
 
 
 
