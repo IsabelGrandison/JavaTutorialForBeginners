@@ -3,10 +3,13 @@ public class main {
         public static void main(String[] args) {
                 Scanner scanner = new Scanner(System.in);
                 String input = "";
-                while (!input.equals("quit")) {
+                while (true) {
                         System.out.println("Input: ");
                         input = scanner.next().toLowerCase();
-                        if (!input.equals("quit"))
+                        if (input.equals("pass"))
+                                continue;
+                        if (input.equals("quit"))
+                                break;
                                 System.out.println(input);
                 }
         }}
