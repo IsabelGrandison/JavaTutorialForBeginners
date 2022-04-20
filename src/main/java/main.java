@@ -1,10 +1,7 @@
 public class main {
         public static void main(String[] args) {
-                int x = 1;
-                int y = x++;
+         int x = (10 + 3) * 2;
                 System.out.println(x);
-                System.out.println(y);
-
         }
 
 
