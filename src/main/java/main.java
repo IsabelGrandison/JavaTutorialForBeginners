@@ -1,9 +1,10 @@
 
 public class main {
         public static void main(String[] args) {
-          int temperature = 12;
-          boolean isWarm = temperature > 20 && temperature < 30;
-            System.out.println(isWarm);
+        int temp = 32;
+        if (temp > 30);
+            System.out.println("It's a hot day");
+
 
 
 
